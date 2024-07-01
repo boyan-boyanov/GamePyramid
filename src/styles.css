@@ -1,0 +1,111 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+form button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button.randomize {
+  background-color: #28a745;
+  margin-top: 10px;
+}
+
+button.randomize:hover {
+  background-color: #218838;
+}
+
+.pyramid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pyramid .level {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.pyramid .player {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  text-align: center;
+  max-width: 150px;
+  position: relative;
+}
+
+.pyramid .player button {
+  margin-top: 10px;
+  padding: 5px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pyramid .player button:hover {
+  background-color: #218838;
+}
