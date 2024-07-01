@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Game Tournament2</h1>
+      <h1>Game Tournament</h1>
       <GameList games={games} addGame={addGame} />
     </div>
   );
