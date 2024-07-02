@@ -22,7 +22,7 @@ const TournamentPyramid = ({ players }) => {
 
     // Update state
     setMatches(newMatches);
-    setCompletedMatches(newCompletedMatches);
+   // setCompletedMatches(newCompletedMatches);
   };
 
   return (
